@@ -19,3 +19,8 @@
 Программа через указанный интервал (параметр response) записывает в железяку новый байт. Таймер в железяке сбрасывается и все повторяется.  
 Исходя из этого надо указывать timeout > response  
 
+## Запуск демоном
+
+> sudo setsid ./watchCat -p ttyACM0 -r 1 -t 60 -v >/home/user/watchCat.log 2>&1 < /home/user/watchCat.log & 
+
+Логи будут писаться в /home/user/watchCat.log
