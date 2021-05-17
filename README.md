@@ -1,5 +1,5 @@
 # watchCat
-Запускать с админскими правами (su ./watchCat ...)  
+Запускать с админскими правами (sudo ./watchCat ...)  
 Для работы понадобится либа для работы с портами (apt install libqt5serialport5)  
 
 Использование: ./watchCat [options]  
